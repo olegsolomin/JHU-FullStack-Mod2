@@ -1,5 +1,6 @@
 # JHU-FullStack-Mod2
 Coursera course: HTML, CSS, and Javascript for Web Developers
+
 Here is what you will need to complete the assignment:
 
 1. (If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
