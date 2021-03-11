@@ -1,12 +1,9 @@
-body {
-  background-color: #00FFFF;
-	margin: 0;
-	padding: 0;
-}
-div {
-	background-color: yellow;
-}
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 h1 {
 	background-color: lightblue;
 	font-size: 150%;
@@ -16,24 +13,31 @@ h1 {
 	margin: 0;
 	padding: 0;
 }
-h2 {
-  background-color: red;
-	font-size: 125%;
-	font-family: fantasy, Comic San MS, Geneva, Arial, Helvetica, sans-serif;
-	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
-	width: auto;
+
+div#container {
+  background-color: lightblue;
+  position: relative;
+	top:50px;
 	float: left;
-	margin-left: 20px;
+	width: 28%;
+  height: 400px;
+	overflow: auto;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-left: 4%;
+	border: 1px solid black;
+	font-size: 90%;
+	font-family: fantasy, Comic San MS, Geneva, Arial, Helvetica, sans-serif;
 }
 
-#box {
-	background-color: #118DFF;
-	border: 3px solid black;
-	width: 30%;
-	height: 400px;
-	float: left;
-	margin-left: 20px;
-	overflow: auto;
+#headings{
+  background-color: yellow;
+  position: relative;
+	width: 100px;
+  top: -5px;
+  left: -5px;
+	text-align: center;
+	font-size: 125%;
+	font-family: fantasy, Comic San MS, Geneva, Arial, Helvetica, sans-serif;
+
 }
