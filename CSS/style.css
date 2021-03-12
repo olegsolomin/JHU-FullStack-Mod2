@@ -5,12 +5,11 @@
   padding: 0;
 }
 h1 {
-	background-color: lightblue;
-	font-size: 150%;
+	font-size: 175%;
 	font-family: fantasy,Comic San MS, Geneva, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
-	margin: 0;
+	margin-top: 50px;
 	padding: 0;
 }
  
@@ -22,24 +21,25 @@ div {
 	overflow: auto;
 	box-sizing: border-box;
 	padding: 5px;
+	padding-top: 30px;
 	margin-bottom: 15px;
 	border: 1px solid black;
-	font-size: 90%;
 	font-family: fantasy, Comic San MS, Geneva, Arial, Helvetica, sans-serif;
 }
 
 #headings{
   background-color: yellow;
-  position: relative;
+  position: absolute;
 	width: 100px;
-  top: -5px;
-  left: -5px;
+  top: -6px;
+  right: -6px;
+  border: 1px solid black;
 	text-align: center;
 	font-size: 125%;
 	font-family: fantasy, Comic San MS, Geneva, Arial, Helvetica, sans-serif;
 
 }
-@media (min-width: 1200px) { 
+@media (min-width: 992px) { 
 	#cont1 {
 	width: 28%;
 	margin-left: 4%;
@@ -56,7 +56,7 @@ div {
     float: left;
 	}
 }
-@media (min-width: 750px) and (max-width: 1199px) { 
+@media (min-width: 768px) and (max-width: 991px) { 
 	#cont1 {
 	width: 47%;
 	margin-left: 2%;
@@ -74,7 +74,7 @@ div {
 	}
 }
 
-@media (max-width: 749px) { 
+@media (max-width: 767px) { 
 	#cont1 {
 	width: 96%;
 	margin-left: 2%;
